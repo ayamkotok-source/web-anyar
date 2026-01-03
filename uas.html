@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio Saya</title>
+<link rel="stylesheet" href="uas.css">
+</head>
+<body>
+<header>
+    <h1>SELAMAT DATANG DI WEBSITE SAYA</h1>
+    <p>Halaman utama website sederhana </p>
+</header>
+
+<nav class="navbar">
+    <a onclick="showContent('home')">Home</a>
+    <a onclick="showContent('profile')">Profile</a>
+    <a onclick="showContent('karya')">Karya & Project</a>
+    <a onclick="showContent('media')">Media</a>
+    <a onclick="showContent('informasi')">informasi</a>
+    <a onclick="showContent('kontak')">kontak</a>
+</nav>
+
+<div class="container">
+
+    <!-- HOME -->
+    <div id="home" class="content a">
+        <h2>PEMROGRAMAN WEB DENGAN HTML</h2>
+        <p>Selamat datang di halaman utama website sederhana ini. Disini anda dapat menemukan informasi tentang pemrograman web menggunakan HTML dan teknologi web lainnya.</p> <p>website ini dibuat sebagai contoh implementasi struktur web yang baik dengan navigasi yang jelas dan konten yang informatif.</p>
+    </div>
+
+    <!-- PROFILE -->
+    <div id="profile" class="content a">
+        <h2>Profile</h2>
+        <p><strong>Nama:</strong> Muhamad Ijen Sudrajat</p>
+        <p><strong>Alamat:</strong> Cisoka Indah Regancy Blok B2/05 Ds.Sukatani Kec.Cisoka Kab.Tangerang Banten</p>
+        <p><strong>Asal:</strong> Tangerang</p>
+        <p><strong>Tanggal lahir:</strong> 21 Agustus 2006</p>
+        <p><strong>Agama:</strong> Islam</p>
+        <p><strong>Nomor Hp:</strong> 081210115265</p>
+    </div>
+
+    <!-- KARYA -->
+    <div id="karya" class="content">
+        <h2>Karya & Project</h2>
+        <ul>
+            <P>KARYA DAN PROJECT YANG TELAH SAYA BUAT YAITU:</P>
+            <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="ss hyperlink.png" alt="Project 1">
+                        <h5 class="mt-3 fw-semibold">Project 1</h5>
+                        <p>Project ini membuat tampilan web hyperlink menggunakan css dan html.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="ss portofolio.png" alt="Project 2">
+                        <h5 class="mt-3 fw-semibold">Project 2</h5>
+                        <p>Project ini membuat sebuah tampilan web pribadi menggunakan CSS dan html.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="ss weblayout.png" alt="Project 3">
+                        <h5 class="mt-3 fw-semibold">Project 3</h5>
+                        <p>Project ini membuat website layout modern dengan menggunakan html, css dan javascript.</p>
+                    </div>
+                </div>
+
+                
+        </ul>
+    </div>
+
+    <!-- MEDIA -->
+    <div id="media" class="content">
+        <h2>Media</h2>
+
+        <h3>📷 Gambar</h3>
+        <img src="AI Repair-Pro-WhatsApp Image 2026-01-02 at 20.54.17(1).jpeg" alt="Foto Saya">
+
+        <h3>🎵 Audio</h3>
+        <audio controls>
+            <source src="integrasi_ajat.mp3" type="audio/mpeg">
+            Browser tidak mendukung audio
+        </audio>
+
+        <h3>🎥 Video</h3>
+        <video width="300" controls>
+            <source src="video tugas ksi.mp4" type="video/mp4">
+            Browser tidak mendukung video
+        </video>
+
+                <h3>📄 Dokumen</h3>
+        <p><a href="dokumen" target="_blank">Download Dokumen</a></p>
+    </div>
+
+
+
+    <!-- INFORMASI -->
+    <div id="informasi" class="content a">
+            <h2>INFORMASI</h2>
+                        <p>Dibuatnya Website ini adalah untuk melengkapi project UAS saya </p>
+                        <p>Website ini adalah website pribadi yang menampilakan data pribadi, karya dan project sang pembuat </p>
+                        <p>Apa bila ada kendala mengenai website ini bisa langsung mengajukan keluhan dibagian kontak</p>        
+    </div>
+
+    <!-- KONTAK -->
+<div id="kontak" class="content">
+<h2>Hubungi Kami</h2>
+<p>Silakan hubungi kami untuk konsultasi atau informasi lebih lanjut.</p>
+ <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" placeholder="Masukkan nama lengkap">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Masukkan alamat email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="subject" id="subject" placeholder="Masukkan konsultasi">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" placeholder="Tulis pesan anda di sini"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Website Saya Created BY Muamad. Ijen Sudrajat</p>
+    <span class="part1">Instagram: </span><span class="part2">Jatzzz_01</span>
+</footer>
+
+<script src="bostrap.js"></script>
+
+</body>
+</html>

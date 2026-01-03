@@ -1,0 +1,117 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: white;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar {
+            background: white;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: default;
+
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .navbar a:hover {
+            color: #2575fc;
+        }
+
+        .container {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        .content {
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+        }
+ 
+        .content.a {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        img {
+            max-width: 200px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        h2 {
+            color: #3498db;
+        }
+
+        .contact { 
+        margin-bottom: 4rem; 
+        }
+
+        .contact-form { 
+            max-width: 600px; 
+            margin: 0 auto; 
+            background-color: white; 
+            padding: 2rem; 
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); 
+        }
+
+        .form-group { 
+            margin-bottom: 1.5rem; 
+        }
+
+        .form-group label { 
+            display: block; 
+            margin-bottom: 0.5rem; 
+            font-weight: 500; 
+        }
+        .form-group input,
+        .form-group textarea { 
+            width: 100%; 
+            padding: 0.8rem; 
+            border: 1px solid #ddd; 
+            border-radius: 5px;
+            font-size: 1rem; 
+        }
+
+        .form-group textarea { 
+            height: 150px; 
+            resize: vertical; 
+        }
+
+        .part1 {
+            color: rgb(255, 255, 255);  /* warna pertama */
+        }
+
+        .part2 {
+             color: rgb(55, 0, 255); /* warna kedua */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #2c3e50;
+            color: white;
+        }
